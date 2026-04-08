@@ -29,7 +29,7 @@ Credentials by default it will be username:admin password:admin later change the
 1. CREATE A PROJECT:
    projects >> create project >> project name: myproject >> projectkey: myproject-key >> save
 2. GENERATE-TOKEN:
-   go to my account >> security >> Token-name: sonar-token >> generate 
+   go to my account >> security >> Token-name: sonar-token >> token type- usertoken >> generate 
 3. CREATING WEBHOOK 
   administartion >> configuration >> webhook >> click on create >> name: sonar-hook >> 
   URL: http://jenkinspublicIP:8080/sonarqube-webhook/ >> save 
