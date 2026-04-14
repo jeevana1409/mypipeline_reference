@@ -206,7 +206,7 @@ vi settings.xml
     <repository>
         <id>nexus</id>                                                     # SHOULD MATCH WITH SETTINGS.XML ID
         <name>Nexus</name>                                                       # REPO NAME
-        <url>http://<NEXUS_PRIVATE_IP>:8081/repository/my-maven-releases/</url>   # REPO URL 
+        <url>http://<NEXUS_Public_IP>:8081/repository/my-maven-releases/</url>   # REPO URL 
     </repository>
 </distributionManagement>
 9. IN JENSKINSFILE ADD THIS ARTIFACT TO NEXUS STAGE
